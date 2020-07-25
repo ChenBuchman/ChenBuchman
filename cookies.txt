@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.my-party.co.il	TRUE	/	FALSE	1999999999	departLan	0
+

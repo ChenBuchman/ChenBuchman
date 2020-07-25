@@ -1,0 +1,742 @@
+.inputboxsearch
+{  
+	width:			3cm;
+}
+a
+{
+	text-decoration:underline;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+a.orange14link
+{ 
+	font-size: 14px;
+	font-weight: bold;
+	color: #E59319;
+	font-family: arial;
+}
+a.orange12link
+{ 
+	font-size: 12px;
+	font-weight: bold;
+	color: #E59319;
+	font-family: arial;
+}
+a.blue14link
+{ 
+	font-size: 14px;
+	font-weight: bold;
+	color: #0F4BFF;
+	font-family: arial;
+}
+a.blue12link
+{ 
+	font-size: 12px;
+	font-weight: bold;
+	color: #0F4BFF;
+	font-family: arial;
+}
+a.blue10link
+{ 
+	font-size: 10px;
+	font-weight: bold;
+	color: #0F4BFF;
+	font-family: arial;
+}
+a.white14link
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: arial;
+}
+a.white12link
+{
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: arial;
+}
+a.white10link
+{
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: arial;
+}
+a.black14link
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	font-family: arial;
+}
+a.black12link
+{ 
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	font-family: arial;
+}
+.red16
+{
+	font-size: 16px; 
+	font-weight: bold; 
+	color: #CC0000; 
+	font-family: arial;
+}
+.red14
+{
+	font-size: 14px; 
+	font-weight: normal; 
+	color: #CC0000; 
+	font-family: arial;
+}
+.red12
+{
+	font-size: 12px; 
+	font-weight: normal; 
+	color: #CC0000; 
+	font-family: arial;
+}
+.red10
+{
+	font-size: 10px; 
+	font-weight: normal; 
+	color: #CC0000; 
+	font-family: arial;
+}
+.blue16
+{
+	font-size: 16px; 
+	font-weight: bold; 
+	color: #0F4BFF; 
+	font-family: arial;
+}
+.blue14
+{
+	font-size: 14px; 
+	font-weight: normal; 
+	color: #0F4BFF; 
+	font-family: arial;
+}
+.blue12
+{
+	font-size: 12px; 
+	font-weight: normal; 
+	color: #0F4BFF; 
+	font-family: arial;
+}
+.blue10
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #0F4BFF;
+	font-family: arial;
+}
+.black16
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	font-family: arial;
+}
+.black14
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	font-family: arial;
+}
+.black12
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	font-family: arial;
+}
+.black10
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+	font-family: arial;
+}
+.white16
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: arial;
+}
+.white14
+{
+	font-size: 14px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: arial;
+}
+.white12
+{
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: arial;
+}
+.white10
+{
+	font-size: 10px;
+	font-weight: normal;
+	color: #FFFFFF;
+	font-family: arial;
+}
+.SiteButtonManageOff
+{
+	font-family: arial;
+	border-width:1px;
+	border-color:#cccccc;
+	border-style:solid;
+	background-color:#2D3B72;
+	display: inline;
+}
+.SiteButtonManageOn
+{
+	font-family: arial;
+	border-width:1px;
+	border-color:#cccccc;
+	border-style:solid;
+	background-color:#6280F6;
+	display: inline;
+}
+.SiteButtonManageIn
+{
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	white-space: nowrap;
+	cursor:pointer;
+}
+
+.SiteButtonManageOffRed
+{
+	font-family: arial;
+	border-width:1px;
+	border-color:#cccccc;
+	border-style:solid;
+	background-color:#CC0000;
+	display: inline;
+}
+.SiteButtonManageOnRed
+{
+	font-family: arial;
+	border-width:1px;
+	border-color:#cccccc;
+	border-style:solid;
+	background-color:#FF0000;
+	display: inline;
+}
+.SiteButtonManageInRed
+{
+	font-family: arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #FFFFFF;
+	white-space: nowrap;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+/* inerface CSS */
+.topTP {
+	background-color:#f5f5f5;
+	color:#13519f;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	line-height: 23px;
+	padding:10px 15px;
+}
+.topTP input{
+	width:150px;
+}
+.topTP span {
+	color:#ffffff;
+	font-size:13px;
+	background-color:#6c94ca;
+	padding:3px 7px;
+}
+.topTP #mNavBar {
+	line-height:25px !important;
+	padding:2px 5px !important;
+	min-height: 25px !important;
+}
+.topTP #mNavBar .navBarLink span {
+	background-color: transparent !important;
+	color:#08c !important;
+	font-size:13px !important;
+}
+.topTP #mNavBar .navBarSpacer {
+	color:#08c !important;
+	font-size:12px !important;
+	font-weight:bold !important;
+	padding:0px 3px !important;
+	background-color: transparent !important;
+}
+.topTP #mNavBar .currentNavBarLink {
+	color:#ffffff !important;
+	font-size:13px !important;
+	background-color:#6c94ca !important;
+	padding:3px 7px !important;
+}
+.topTP .blue12link , .topTP .blue12link:visited{
+	background-color:#97cee9;
+	color:#000000;
+	background-image:url(images/searchBtnBg.gif);
+	background-repeat:repeat-x;
+	background-position:top left;
+	border: solid 1px #5a91ac;
+	cursor:pointer;
+	font-family:arial;
+	font-size:14px;
+	font-weight:normal;
+	padding:1px 5px;
+	text-decoration:none;
+	outline:none;
+	margin:0;
+}
+.topTP .blue12link:hover, .topTP .blue12link:focus {
+	border: solid 1px #1b3a49;
+	text-decoration:none;
+}
+.topTP .blue12link:active {
+	border-style:inset;
+	text-decoration:none;
+}
+.topTPE {
+	color:#000000;
+	font-family:arial;
+	font-size:13px;
+	font-weight:normal;
+	height:15px;
+	padding:10px;
+}
+.topTTP {
+	background-color:#FFFFFF;
+	color:red;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	height:10px;
+}
+
+.ManageBlueHeader {
+	background-color:#c9daee;
+	color:#000000;
+	font-family:arial;
+	font-size:13px;
+	font-weight:normal;
+	height:15px;
+	padding:2px;
+}
+.topTextPage {
+	background-color:#FFFFFF;
+	color:#626262;
+	font-family:arial;
+	font-size:18px;
+	font-weight:bold;
+	height:15px;
+}
+.topTextPageExplainText {
+	color:#000000;
+	font-family:arial;
+	font-size:13px;
+	font-weight:normal;
+	height:15px;
+}
+.subTopTextPage {
+	background-color:#FFFFFF;
+	color:red;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	height:10px;
+}
+
+
+
+
+
+#TableFormManage {
+	/*background-color:#f2f6fb;*/
+	/*border:1px solid #a6c4eb;*/
+	width:98%;
+	color:#000000;
+	padding:0px 5px;
+	margin:0px auto 0px auto;
+}
+#TableFormManage tr.ManageBlueHeader {
+	background-color:#D1DEF1;
+	color:#000000;
+	font-family:arial;
+	font-size:13px;
+	font-weight:normal;
+	height:15px;
+	padding:2px;
+}
+#TableFormManage .buttonsend ,#TableFormManage .buttonsend:visited{
+	background-color: #d17c16!important;
+	background-image: url(images/submitBg.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #8b6826!important;
+	border-left: 1px solid #cf7200!important;
+	border-right: 1px solid #8b6826!important;
+	border-top: 1px solid #cf7200!important;
+	color: #ffffff!important;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 16px!important;
+	font-weight: bold;
+	height: 30px;
+	width: auto!important;
+}
+#TableFormManage .buttonsend:hover ,#TableFormManage .buttonsend:focus , #TableFormManage .buttonsend:active{
+	background-color: #d17c16!important;
+	background-image: url(images/submitBgHover.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #8b6826!important;
+	border-left: 1px solid #cf7200!important;
+	border-right: 1px solid #8b6826!important;
+	border-top: 1px solid #cf7200!important;
+	color: #ffffff!important;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 16px!important;
+	font-weight: bold;
+	height: 30px;
+	width: auto!important;
+}
+
+
+
+
+
+
+
+#TableListRecords {
+	background-color:#f2f6fb;
+	border:1px solid #a6c4eb;
+	width:98%;
+	margin:0px auto 0px auto;
+	border-collapse:collapse;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+}
+#TableListRecords tr {
+	background-color:#ffffff;
+	height:20px;
+}
+#TableListRecords tr td {
+	border:1px solid #a1c0ea;
+	border-collapse:collapse;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	padding:8px;
+}
+#TableListRecords .ManageBlueHeader td {
+	background-color:#cfdeef;
+	background-image:url(images/ManageBlueHeaderBg.gif);
+	background-repeat:repeat-x;
+	color:#000000;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	text-align:center;
+	font-weight:normal;
+	height:26px;
+	padding:2px;
+}
+#TableListRecords .movePagesAndMore td {
+	background-image:url(images/trBg.gif);
+	background-repeat:repeat-x;
+	background-position:top right;
+	background-color:#ceddef;
+	border-width:0;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	height:25px;
+	padding:0px 1px;
+}
+#TableListRecords .NoRecords td {
+	background-color:#FFFFFF;
+	color:#000000;
+	font-family:arial;
+	font-size:12px;
+	font-weight:normal;
+	height:20px;
+	padding:2px;
+}
+.TipBox {
+	background-color:#fffee8;
+	background-image:url(images/info.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	border-color:#f0b564 #f0b564 #f0b564 #f0b564;
+	border-style:solid;
+	border-width:1px 1px 2px 1px;
+	color:black;
+	cursor:default;
+	display:block;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.3;
+	padding:8px 10px 8px 8px;
+	white-space:normal;
+	width:auto;
+}
+.UpdateSuccess {
+	background-color:#9ccb0e;
+	background-image:url(images/check.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	text-align:center;
+	border-color:#e6e7e2 #d2d5ca #d2d5ca;
+	border-style:solid;
+	border-width:1px 2px 2px 1px;
+	color:#ffffff;
+	cursor:default;
+	display:block;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	line-height:1.3;
+	padding:8px 10px 8px 8px;
+	white-space:normal;
+	width:500px;
+}
+.SearchSuccess {
+	background-color:#fffee8;
+	border-color:#f0b564 #f0b564 #f0b564 #f0b564;
+	border-style:solid;
+	border-width:1px 1px 2px 1px;
+	color:black;
+	cursor:default;
+	display:block;
+	font-family:arial;
+	font-size:12px;
+	line-height:1.3;
+	padding:8px 10px 8px 8px;
+	white-space:normal;
+	width:500px;
+	background-image:url(images/searchResultIcon.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+
+
+
+
+/* Manage buttons */
+
+/* ------------ Good for all buttons ----------------- */
+input.buttonsend, input.buttonUpdateDetail, a.SiteB, a.SiteBred, a.SiteBblue {
+	line-height: 16px !important;
+	font-family: arial !important;
+	font-size: 12px !important;
+	font-weight: bold !important;
+	padding: 4px !important;
+	margin: 1px !important;
+	-webkit-border-radius: 3spx !important;
+	-ms-border-radius: 3px !important;
+	border-radius: 3px !important;
+	display: inline-block;
+	text-decoration: none !important;
+	cursor: pointer !important;
+	width: auto !important;
+	white-space:nowrap !important;
+}
+
+/* ------------ Gray Button ----------------- */
+a.SiteB {
+	color: #444 !important;
+	border: 1px solid #CCC !important;
+	background: #ECECEC !important;
+	background: -webkit-linear-gradient(top, #F6F6F6 0%, #E0E0E0);
+	background: -moz-linear-gradient(top, #F6F6F6 0%, #E0E0E0);
+	background: -ms-linear-gradient(top, #F6F6F6 0%, #E0E0E0);
+	background: linear-gradient(top, #F6F6F6 0%, #E0E0E0);
+	-webkit-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 0 0 rgba(000,000,000,0), inset 0 0 2px rgba(255,255,255,1);
+	-ms-box-shadow: 0 0 0 rgba(000,000,000,0), inset 0 0 2px rgba(255,255,255,1);
+	box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(255, 255, 255, 1);
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 1), 0 0 0 rgba(255, 255, 255, 0);
+}
+a.SiteB:hover {
+	border: 1px solid #CCC !important;
+	background: #E0E0E0 !important;
+	background: -webkit-linear-gradient(top, white 0%, #CCC);
+	background: -moz-linear-gradient(top, white 0%, #CCC);
+	background: -ms-linear-gradient(top, white 0%, #CCC);
+	background: linear-gradient(top, white 0%, #CCC);
+	-webkit-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(255, 255, 255, 1);
+	-ms-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(255, 255, 255, 1);
+	box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(255, 255, 255, 1);
+}
+/* ------------ Gray Button ----------------- */
+
+
+/* ------------ Red Button ----------------- */
+a.SiteBred {
+	color: white !important;
+	border: 1px solid #d83526 !important;
+	background: #fe1a00 !important;
+	background: -webkit-linear-gradient(top, #fe1a00 0%, #ce0100);
+	background: -moz-linear-gradient(top, #fe1a00 0%, #ce0100);
+	background: -ms-linear-gradient(top, #fe1a00 0%, #ce0100);
+	background: linear-gradient(top, #fe1a00 0%, #ce0100);
+	-webkit-box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	-moz-box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	-ms-box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	text-shadow: 0 1px 0 #b23e35, 0 0 0 #b23e35;
+}
+a.SiteBred:hover {
+	border: 1px solid #d83526 !important;
+	background: #ce0100 !important;
+	background: -webkit-linear-gradient(top, #ce0100 0%, #fe1a00);
+	background: -moz-linear-gradient(top, #ce0100 0%, #fe1a00);
+	background: -ms-linear-gradient(top, #ce0100 0%, #fe1a00);
+	background: linear-gradient(top, #ce0100 0%, #fe1a00);
+	-webkit-box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	-moz-box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	-ms-box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93;
+	box-shadow: 0 0 0 #f29c93, inset 0 0 2px #f29c93);
+}
+/* ------------ Red Button ----------------- */
+
+
+/* ------------ Save Form Button ----------------- */
+input.buttonsend, input.buttonUpdateDetail, a.SiteBblue {
+	color: white !important;
+	border: 1px solid #16B !important;
+	background: #2378CD !important;
+	background: -webkit-linear-gradient(top, #38D 0%, #16B);
+	background: -moz-linear-gradient(top, #38D 0%, #16B);
+	background: -ms-linear-gradient(top, #38D 0%, #16B);
+	background: linear-gradient(top, #38D 0%, #16B);
+	-webkit-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(119, 170, 204, 1);
+	-moz-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(119, 170, 204, 1);
+	-ms-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(119, 170, 204, 1);
+	box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(119, 170, 204, 1);
+	text-shadow: 0 1px 0 rgba(025, 084, 167, 1), 0 0 0 rgba(255, 255, 255, 0);
+}
+input.buttonsend:hover, input.buttonUpdateDetail:hover, a.SiteBblue:hover {
+	border: 1px solid #05A !important;
+	background: #38D !important;
+	background: -webkit-linear-gradient(top, #38D 0%, #05A);
+	background: -moz-linear-gradient(top, #38D 0%, #05A);
+	background: -ms-linear-gradient(top, #38D 0%, #05A);
+	background: linear-gradient(top, #38D 0%, #05A);
+	-webkit-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(073, 151, 224, 1);
+	-moz-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(073, 151, 224, 1);
+	-ms-box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(073, 151, 224, 1);
+	box-shadow: 0 0 0 rgba(000, 000, 000, 0), inset 0 0 2px rgba(073, 151, 224, 1);
+	text-shadow: 0 1px 0 rgba(000, 085, 170, 1), 0 0 0 rgba(255, 255, 255, 0);
+}
+/* ------------ Save Form Button ----------------- */
+
+
+
+/*BIG*/
+.SiteBbig, .SiteBbig:visited{
+	background-color: #d17c16;
+	background-image: url(images/submitBg.gif);
+	background-repeat: repeat-x;
+	background-position:left top;
+	border-bottom: 1px solid #8b6826;
+	border-left: 1px solid #cf7200;
+	border-right: 1px solid #8b6826;
+	border-top: 1px solid #cf7200;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	display:inline-block;
+	text-decoration:none;
+	padding:0px 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.SiteBbig:hover, .SiteBbig:focus, .SiteBbig:active{
+	background-color: #d17c16;
+	background-image: url(images/submitBgHover.gif);
+	background-repeat: repeat-x;
+	background-position:left bottom;
+	border-bottom: 1px solid #8b6826;
+	border-left: 1px solid #8b6826;
+	border-right: 1px solid #cf7200;
+	border-top: 1px solid #8b6826;
+	text-decoration:none;
+}
+
+/*RED*/
+.SiteBbigred, .SiteBbigred:visited{
+	background-color: #d90431;
+	background-image: url(images/deleteBtn.gif);
+	background-position: left top;
+	background-repeat: repeat-x;
+	border:solid 1px #920b0b;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: arial;
+	font-size: 16px;
+	font-weight:bold;
+	height: 30px;
+	line-height: 30px;
+	width: auto;
+	display:inline-block;
+	text-decoration:none;
+	padding:0px 10px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.SiteBbigred:hover, .SiteBbigred:focus, .SiteBbigred:active{
+	background-color: #d90431;
+	background-image: url(images/deleteBtnHover.gif);
+	background-position: left bottom;
+	text-decoration: none;
+	border:inset 1px #920b0b;
+}
+
+
+
+/* High charts grapgh */
+.highChartsContainerDirection{
+	direction:ltr;
+}
+.highChartsContainerWidth{
+	width: 100%;
+}

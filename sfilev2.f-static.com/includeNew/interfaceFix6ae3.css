@@ -1,0 +1,32 @@
+.topTP input, .topTP select, .topTP form {
+	margin-bottom: 0;
+}
+ 
+#TableListRecords input, #TableListRecords select, #TableListRecords form {
+	margin-bottom: 0;
+}
+
+label {
+	display: inline;
+	margin-bottom: 5px;
+}
+
+input[type="checkbox"] {
+	margin: 0;
+}
+
+.tools_main_contaner {
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.tool_items_contaner form {
+	margin-bottom: 0;
+}
+.tool_items_contaner input {
+	margin-bottom: 0;
+}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+	cursor: auto;
+}

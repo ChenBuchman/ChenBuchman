@@ -1,0 +1,67 @@
+/* Forms Design */
+.sop_form-control {
+	display: inline-block;
+	width: 250px;
+	height: 34px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #FFF;
+	background-image: none;
+	border: 1px solid #CCC;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	box-sizing: border-box;
+}
+.sop_form-control:focus {
+	border-color: #66AFE9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),0 0 8px rgba(102, 175, 233, 0.6);
+}
+.sop_form-control:focus {
+	outline-offset: -2px;
+}
+
+.sop_form-radio {
+	margin: 4px 0 0;
+	margin-top: 1px \9;
+	line-height: normal;
+	box-sizing: border-box;
+	padding: 0;
+	width: auto;
+}
+
+
+/* Button Design */
+.sop_btn {
+	color: #333;
+	background-color: #FFF;
+	border-color: #CCC;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid rgba(0, 0, 0, 0);
+	white-space: nowrap;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+}
+
+.sop_btn:hover, .sop_btn:focus, .sop_btn:active, .sop_btn.active {
+	color: #333;
+	background-color: #EBEBEB;
+	border-color: #ADADAD;
+	text-decoration: none;
+}
