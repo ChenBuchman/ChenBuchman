@@ -1,0 +1,53 @@
+/* Fix the containers positions */
+#lbTopData, #lbBottomData { float: right; text-align: right; padding-right: 10px; padding-left: 0px; }
+#lbTopNav, #lbBottomNav { float: left; text-align: left; padding-left: 10px; padding-right: 0px; }
+/* Fix all the buttons positions */
+#lbNext, #lbNextTop, #lbPrev, #lbPrevTop, #lbClose, #lbCloseTop, #lbPrint, #lbPrintTop, #lbPlay, #lbPlayTop, #lbPause, #lbPauseTop { float: left; margin: 0px 8px 1px 0px; }
+/* Fix the next buttons icons */
+#lbNext.black, #lbNextTop.black { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.blackOff, #lbNextTop.blackOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+#lbNext.grey, #lbNextTop.grey { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.greyOff, #lbNextTop.greyOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+#lbNext.red, #lbNextTop.red { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.redOff, #lbNextTop.redOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+#lbNext.green, #lbNextTop.green { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.greenOff, #lbNextTop.greenOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+#lbNext.blue, #lbNextTop.blue { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.blueOff, #lbNextTop.blueOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+#lbNext.gold, #lbNextTop.gold { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.goldOff, #lbNextTop.goldOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+#lbNext.orange, #lbNextTop.orange { background: url('../../Images/icon-i2/24x24/black/navigate_left.png') no-repeat; }
+#lbNext.orangeOff, #lbNextTop.orangeOff { background: url('../../Images/icon-i2/24x24/white/navigate_left.png') no-repeat; cursor: default; }
+/* Fix the preview buttons icons */
+#lbPrev.black, #lbPrevTop.black { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.blackOff, #lbPrevTop.blackOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+#lbPrev.grey, #lbPrevTop.grey { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.greyOff, #lbPrevTop.greyOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+#lbPrev.red, #lbPrevTop.red { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.redOff, #lbPrevTop.redOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+#lbPrev.green, #lbPrevTop.green { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.greenOff, #lbPrevTop.greenOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+#lbPrev.blue, #lbPrevTop.blue { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.blueOff, #lbPrevTop.blueOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+#lbPrev.gold, #lbPrevTop.gold { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.goldOff, #lbPrevTop.goldOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+#lbPrev.orange, #lbPrevTop.orange { background: url('../../Images/icon-i2/24x24/black/navigate_right.png') no-repeat; }
+#lbPrev.orangeOff, #lbPrevTop.orangeOff { background: url('../../Images/icon-i2/24x24/white/navigate_right.png') no-repeat; cursor: default; }
+/* Fix the next hovers buttons icons */
+#lbNextHov { right: auto; left: 0px; float: left; margin-right: 0px; margin-left: 3px; }
+#lbNextHov.black:hover, #lbNextHov.black:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+#lbNextHov.grey:hover, #lbNextHov.grey:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+#lbNextHov.red:hover, #lbNextHov.red:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+#lbNextHov.green:hover, #lbNextHov.green:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+#lbNextHov.blue:hover, #lbNextHov.blue:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+#lbNextHov.gold:hover, #lbNextHov.gold:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+#lbNextHov.orange:hover, #lbNextHov.orange:visited { background: url('images/prevV1.png') left 30% no-repeat; }
+/* Fix the preview hovers buttons icons */
+#lbPrevHov { left: auto; right: 0px; float: right; margin-left: 0px; margin-right: 3px; }
+#lbPrevHov.black:hover, #lbPrevHov.black:visited { background: url('images/nextV1.png') right 30% no-repeat; }
+#lbPrevHov.grey:hover, #lbPrevHov.grey:visited { background: url('images/nextV1.png') right 30% no-repeat; }
+#lbPrevHov.red:hover, #lbPrevHov.red:visited { background: url('images/nextV1.png') right 30% no-repeat; }
+#lbPrevHov.green:hover, #lbPrevHov.green:visited { background: url('images/nextV1.png') right 30% no-repeat; }
+#lbPrevHov.blue:hover, #lbPrevHov.blue:visited { background: url('images/nextV1.png') right 30% no-repeat; }
+#lbPrevHov.gold:hover, #lbPrevHov.gold:visited { background: url('images/nextV1.png') right 30% no-repeat; }
+#lbPrevHov.orange:hover, #lbPrevHov.orange:visited { background: url('images/nextV1.png') right 30% no-repeat; }
